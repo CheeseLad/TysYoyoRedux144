@@ -1,0 +1,140 @@
+Configs: {
+	TysYoyoReduxConfigServer: {
+		BuffsToCounterweights: {
+			Tooltip: Speeds up counterweights along with giving them local immunity. In addtion counterweights will switch out after 4-6 seconds. (Enabled by default)
+			Label: Changes to counterweights
+		}
+
+		AddNewAccessories: {
+			Tooltip: Adds new modded yoyo subclass accessories. (Enabled by default)
+			Label: Add new modded yoyo accessories
+		}
+
+		AddNewYoyos: {
+			Tooltip: Adds new modded yoyos to various points in progression. (Enabled by default)
+			Label: Add new modded yoyos
+		}
+
+		VanillaYoyoRecipes: {
+			Tooltip: Gives recipes to Red's Throw and Valkyrie Yoyo. (Enabled by default)
+			Label: Give recipes to developer yoyos
+		}
+
+		VanillaYoyoEffects: {
+			Tooltip: Gives a special effect to each vanilla yoyo. (Enabled by default)
+			Label: Give effects to vanilla yoyos
+		}
+
+		DisplayName: Mod Config
+	}
+}
+
+Projectiles: {
+	YeletsRazorLeafProjectile.DisplayName: Yelets Razor Leaf Projectile
+	ValorGhostlyWispProjectile.DisplayName: Valor Ghostly Wisp Projectile
+	ValkyrieYoyoFeatherProjectile.DisplayName: Valkyrie Yoyo Feather Projectile
+	RallyAfterimageProjectile.DisplayName: Rally Afterimage Projectile
+	MalaiseBileDropletProjectile.DisplayName: Malaise Bile Droplet Projectile
+	KrakenAbyssalTentacleProjectile.DisplayName: Kraken Abyssal Tentacle Projectile
+	HelFireFlameTorrentProjectile.DisplayName: Hel Fire Flame Torrent Projectile
+	GradientChromaticPulseProjectile.DisplayName: Gradient Chromatic Pulse Projectile
+	EoCMiniServantProjectile.DisplayName: Eo C Mini Servant Projectile
+	Code2PlasmaticAuraProjectile.DisplayName: Code2 Plasmatic Aura Projectile
+	Code1ElectrostaticAuraProjectile.DisplayName: Code1 Electrostatic Aura Projectile
+	CascadeFieryExplosionProjectile.DisplayName: Cascade Fiery Explosion Projectile
+	AmarokSnowflakeProjectile.DisplayName: Amarok Snowflake Projectile
+	TheHiveProjectile.DisplayName: The Hive Projectile
+	SpectrumProjectile.DisplayName: Spectrum Projectile
+	RavagerProjectile.DisplayName: Ravager Projectile
+	PrismaticThrowProjectile.DisplayName: Prismatic Throw Projectile
+	PoltergeistProjectile.DisplayName: Poltergeist Projectile
+	NitroProjectile.DisplayName: Nitro Projectile
+	HolyThrowProjectile.DisplayName: Holy Throw Projectile
+	ExtraterrestrialTaserProjectile.DisplayName: Extraterrestrial Taser Projectile
+	EnchantedYoyoProjectile.DisplayName: Enchanted Yoyo Projectile
+	CabalProjectile.DisplayName: Cabal Projectile
+	AvianProjectile.DisplayName: Avian Projectile
+	AsteroidProjectile.DisplayName: Asteroid Projectile
+	SpectrumSundanceProjectile.DisplayName: Spectrum Sundance Projectile
+	RavagerBloodClotProjectile.DisplayName: Ravager Blood Clot Projectile
+	PrismaticThrowPrismaticShardProjectile.DisplayName: Prismatic Throw Prismatic Shard Projectile
+	NitroCursedEmberProjectile.DisplayName: Nitro Cursed Ember Projectile
+	CabalIchorRainProjectile.DisplayName: Cabal Ichor Rain Projectile
+}
+
+Items: {
+	Spectrum: {
+		Tooltip: ""
+		DisplayName: Spectrum
+	}
+
+	Ravager: {
+		Tooltip: ""
+		DisplayName: Ravager
+	}
+
+	PrismaticThrow: {
+		Tooltip: ""
+		DisplayName: Prismatic Throw
+	}
+
+	Poltergeist: {
+		Tooltip: ""
+		DisplayName: Poltergeist
+	}
+
+	Nitro: {
+		Tooltip: ""
+		DisplayName: Nitro
+	}
+
+	HolyThrow: {
+		Tooltip: ""
+		DisplayName: Holy Throw
+	}
+
+	ExtraterrestrialTaser: {
+		Tooltip: ""
+		DisplayName: Extraterrestrial Taser
+	}
+
+	EnchantedYoyo: {
+		Tooltip: ""
+		DisplayName: Enchanted Yoyo
+	}
+
+	Cabal: {
+		Tooltip: ""
+		DisplayName: Cabal
+	}
+
+	Avian: {
+		Tooltip: ""
+		DisplayName: Avian
+	}
+
+	Asteroid: {
+		Tooltip: ""
+		DisplayName: Asteroid
+	}
+
+	YoyoSideEffectsAccessory: {
+		Tooltip: ""
+		DisplayName: Yoyo Side Effects Accessory
+	}
+
+	YoyoBearingAccessory: {
+		Tooltip: ""
+		DisplayName: Yoyo Bearing Accessory
+	}
+
+	MasterYoyoKit: {
+		Tooltip: ""
+		DisplayName: Master Yoyo Kit
+	}
+
+	CombinedYoyoAccessory: {
+		Tooltip: ""
+		DisplayName: Combined Yoyo Accessory
+	}
+}
