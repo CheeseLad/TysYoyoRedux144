@@ -11,7 +11,19 @@ namespace TysYoyoRedux144.NPCs
 {
 	public class TysYoyoReduxGlobalNPC : GlobalNPC
 	{
-		public override void ModifyActiveShop(NPC npc, string shopName, Item[] items)
+		public override void ModifyShop(NPCShop shop)
+		{
+			if (ModContent.GetInstance<TysYoyoReduxConfigServer>().AddNewAccessories)
+			{
+				switch (shop.NpcType)
+				{
+					case 124:
+						shop.Add(ModContent.ItemType<Items.Accessories.YoyoBearingAccessory>());
+						break;
+				}
+			}
+		}
+		/*public override void ModifyActiveShop(NPC npc, string shopName, Item[] items)
 		{
 			if (ModContent.GetInstance<TysYoyoReduxConfigServer>().AddNewAccessories)
 			{
@@ -27,7 +39,7 @@ namespace TysYoyoRedux144.NPCs
 					}
 				}
 			}
-		}
+		} /*
 
 
 		//New Sold Items
