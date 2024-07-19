@@ -2,7 +2,7 @@ Configs: {
 	TysYoyoReduxConfigServer: {
 		BuffsToCounterweights: {
 			Tooltip: 增加平衡锤的速度，同时给予局部免伤。平衡锤会在4-6秒后失效。(默认启用)
-			Label: 改变平衡锤
+			Label: 修改平衡锤
 		}
 
 		AddNewAccessories: {
@@ -12,7 +12,7 @@ Configs: {
 
 		AddNewYoyos: {
 			Tooltip: 在不同进度时添加模组悠悠球。 (默认启用)
-			Label: 添加模组悠悠球
+			Label: 随阶段添加新的模组悠悠球
 		}
 
 		VanillaYoyoRecipes: {
@@ -64,37 +64,41 @@ Projectiles: {
 
 Items: {
 	Spectrum: {
-		Tooltip: ""
+		Tooltip: 发出致命光芒
 		DisplayName: 光谱球
 	}
 
 	Ravager: {
-		Tooltip: ""
+		Tooltip: 命中后射出寻血凝块
 		DisplayName: 劫掠球
 	}
 
 	PrismaticThrow: {
-		Tooltip: ""
+		Tooltip: 命中后产生棱镜碎片
 		DisplayName: 棱镜抛球
 	}
 
 	Poltergeist: {
-		Tooltip: ""
-		DisplayName: 胡闹鬼球
+		Tooltip: 可以穿透墙壁
+		DisplayName: 胡闹幽灵球
 	}
 
 	Nitro: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			留下一道炽热痕迹
+			.
+			'''
 		DisplayName: 氮气球
 	}
 
 	HolyThrow: {
-		Tooltip: ""
+		Tooltip: 无视敌人10点防御
 		DisplayName: 圣抛球
 	}
 
 	ExtraterrestrialTaser: {
-		Tooltip: ""
+		Tooltip: 命中后电击敌人
 		DisplayName: 异星电击球
 	}
 
@@ -104,37 +108,54 @@ Items: {
 	}
 
 	Cabal: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			击中敌人降下灵液雨
+			.
+			'''
 		DisplayName: 阴谋球
 	}
 
 	Avian: {
-		Tooltip: ""
+		Tooltip: 异常灵敏
 		DisplayName: 飞鸟球
 	}
 
 	Asteroid: {
-		Tooltip: ""
+		Tooltip: 发射弹性火球
 		DisplayName: 小行星球
 	}
 
 	YoyoSideEffectsAccessory: {
-		Tooltip: ""
-		DisplayName: 悠悠球副作用配件
+		Tooltip:
+			'''
+			悠悠球连续命中可形成连击
+			连击最多可使悠悠球造成的伤害提高20%
+			'''
+		DisplayName: 连击尖刺
 	}
 
 	YoyoBearingAccessory: {
-		Tooltip: ""
-		DisplayName: 悠悠球轴承配件
+		Tooltip: 悠悠球空转时间提高50%
+		DisplayName: 轴承配件
 	}
 
 	MasterYoyoKit: {
-		Tooltip: ""
-		DisplayName: 大师悠悠球袋
+		Tooltip:
+			'''
+			给予你常人无法理解悠悠球技术
+			'最后一个悠悠球大师...'
+			'''
+		DisplayName: 大师悠悠套件
 	}
 
 	CombinedYoyoAccessory: {
-		Tooltip: ""
-		DisplayName: 组合悠悠球配件
+		Tooltip:
+			'''
+			悠悠球连续命中可形成连击
+			连击最多可使悠悠球造成的伤害提高20%
+			悠悠球空转时间提高50%
+			'''
+		DisplayName: 悠悠球改装套件
 	}
 }
