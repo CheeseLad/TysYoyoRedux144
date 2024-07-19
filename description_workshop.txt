@@ -34,3 +34,6 @@ v1.4 - Works in the full release tmod 1.4, balance changes, spectrum effect fixe
 v1.5 - Minor tweaks and fixes
 v1.6 - Updated for 1.4 (Removed The Hive, changes to shops, misc other changes)
 v1.7 - 1.4.4 port by CheeseLad
+v1.8 - Added correct names and descriptions to all items, 
+     - Fixed mechanic npc bug with extra items and shop expander mod,
+     - Added Simplified Chinese translation (thanks to wanghao9039 from the Discord server)

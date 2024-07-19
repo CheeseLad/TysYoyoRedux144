@@ -11,8 +11,27 @@ namespace TysYoyoRedux144.NPCs
 {
 	public class TysYoyoReduxGlobalNPC : GlobalNPC
 	{
+		public override void ModifyActiveShop(NPC npc, string shopName, Item[] items)
+		{
+			if (ModContent.GetInstance<TysYoyoReduxConfigServer>().AddNewAccessories)
+			{
+				if (npc.type == NPCID.Mechanic)
+				{
+					for (int i = 0; i < items.Length; i++)
+					{
+						if (items[i] == null || items[i].type == ItemID.None)
+						{
+							items[i] = new(ModContent.ItemType<Items.Accessories.YoyoBearingAccessory>());
+							break;
+						}
+					}
+				}
+			}
+		}
+
+
 		//New Sold Items
-        public override void ModifyActiveShop(NPC npc, string shopName, Item[] items)
+      /*  public override void ModifyActiveShop(NPC npc, string shopName, Item[] items)
         {
 			//All new accessories that are sold
 			if (ModContent.GetInstance<TysYoyoReduxConfigServer>().AddNewAccessories)
@@ -20,15 +39,23 @@ namespace TysYoyoRedux144.NPCs
 				//The mechanic sells ball bearings
 				if (npc.type == NPCID.Mechanic)
 				{
-					for (int i = 0; i < items.Length; i++)
-					{
+
+					//Find Slot to insert into
+					Item NewItemSlot = items.FirstOrDefault(i => i.type == ItemID.MechanicalLens); //Change target
+					int index = 21; //Change Default
+					if (NewItemSlot != null)
+						index = items.ToList().IndexOf(NewItemSlot) + 1;
+					
+
+					//for (int i = 0; i < items.Length; i++)
+					/*{
                         if (items[i].IsAir)
                         {
                             items[i] = new(ModContent.ItemType<Items.Accessories.YoyoBearingAccessory>());
                             break;
                         }
-                    }
-                    /*//Create List
+                    } /*
+                    //Create List
 					List<Item> inventory = shop.item.ToList();
 
 					//Find Slot to insert into
@@ -44,9 +71,9 @@ namespace TysYoyoRedux144.NPCs
 
 					//Bruh Moment
 					shop.item = inventory.ToArray();*/
-                }
-            }
-        }
+           //     }
+         //   }
+       // } 
 
 		//Travelling merchant sold items
 		public override void SetupTravelShop(int[] shop, ref int nextSlot)

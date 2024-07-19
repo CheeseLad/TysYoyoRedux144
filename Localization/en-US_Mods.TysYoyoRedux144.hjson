@@ -64,37 +64,41 @@ Projectiles: {
 
 Items: {
 	Spectrum: {
-		Tooltip: ""
+		Tooltip: Puts on a deadly lightshow
 		DisplayName: Spectrum
 	}
 
 	Ravager: {
-		Tooltip: ""
+		Tooltip: Fires out seeking blood clots on impact
 		DisplayName: Ravager
 	}
 
 	PrismaticThrow: {
-		Tooltip: ""
+		Tooltip: Produces prismatic shards on impact
 		DisplayName: Prismatic Throw
 	}
 
 	Poltergeist: {
-		Tooltip: ""
+		Tooltip: Can pass through walls unhindered
 		DisplayName: Poltergeist
 	}
 
 	Nitro: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			Leaves a blazing trail
+			.
+			'''
 		DisplayName: Nitro
 	}
 
 	HolyThrow: {
-		Tooltip: ""
+		Tooltip: Ignores 10 points of enemy defence
 		DisplayName: Holy Throw
 	}
 
 	ExtraterrestrialTaser: {
-		Tooltip: ""
+		Tooltip: Electrocutes enemies on impact
 		DisplayName: Extraterrestrial Taser
 	}
 
@@ -104,37 +108,54 @@ Items: {
 	}
 
 	Cabal: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			Striking enemies calls down a rain of ichor
+			.
+			'''
 		DisplayName: Cabal
 	}
 
 	Avian: {
-		Tooltip: ""
+		Tooltip: Exceptionally agile
 		DisplayName: Avian
 	}
 
 	Asteroid: {
-		Tooltip: ""
+		Tooltip: Launches short-lived bouncing fireballs
 		DisplayName: Asteroid
 	}
 
 	YoyoSideEffectsAccessory: {
-		Tooltip: ""
-		DisplayName: Yoyo Side Effects Accessory
+		Tooltip:
+			'''
+			Consecutive yoyo hits builds up combo
+			Combo increases damage dealt by yoyos by up to 20%
+			'''
+		DisplayName: Spiked Side Effects
 	}
 
 	YoyoBearingAccessory: {
-		Tooltip: ""
-		DisplayName: Yoyo Bearing Accessory
+		Tooltip: Increases yoyo lifetime by 50%
+		DisplayName: Ball Bearings
 	}
 
 	MasterYoyoKit: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			Increases your yoyo skills beyond comprehension
+			'The last of your kind, a true yoyo master...'
+			'''
 		DisplayName: Master Yoyo Kit
 	}
 
 	CombinedYoyoAccessory: {
-		Tooltip: ""
-		DisplayName: Combined Yoyo Accessory
+		Tooltip:
+			'''
+			Consecutive yoyo hits builds up combo
+			Combo increases damage dealt by yoyos by up to 20%
+			Increases yoyo lifetime by 50%
+			'''
+		DisplayName: Yoyo Modification Kit
 	}
 }
