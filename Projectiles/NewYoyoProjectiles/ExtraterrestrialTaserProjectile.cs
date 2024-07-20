@@ -63,7 +63,7 @@ namespace TysYoyoRedux144.Projectiles.NewYoyoProjectiles
 
 		public override void PostDraw(Color lightColor)
         {
-			Texture2D texture = ModContent.Request<Texture2D>("TysYoyoRedux/Projectiles/NewYoyoProjectiles/ExtraterrestrialTaserProjectile_Glowmask").Value;
+			Texture2D texture = ModContent.Request<Texture2D>("TysYoyoRedux144/Projectiles/NewYoyoProjectiles/ExtraterrestrialTaserProjectile_Glowmask").Value;
 			Main.spriteBatch.Draw
 			(
 				texture,

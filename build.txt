@@ -1,6 +1,6 @@
 displayName = Ty's Yoyo Redux [1.4.4 Port]
 author = Typhlosionater (1.4.4 Port By CheeseLad)
-version = 1.8.2
+version = 1.8.3
 homepage = https://discord.gg/ezQfsZ78ex
 hideCode = true
 hideResources = true

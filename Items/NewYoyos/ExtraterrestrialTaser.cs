@@ -30,8 +30,8 @@ namespace TysYoyoRedux144.Items.NewYoyos
 		public override void SetDefaults()
 		{
 			Item.damage = 160;
-            Item.DamageType = DamageClass.MeleeNoSpeed;
-            Item.useTime = 25;
+      Item.DamageType = DamageClass.MeleeNoSpeed;
+      Item.useTime = 25;
 			Item.useAnimation = 25;
 			Item.knockBack = 4f;
 			Item.crit += 8;
@@ -47,13 +47,13 @@ namespace TysYoyoRedux144.Items.NewYoyos
 			Item.value = Item.sellPrice(0, 10, 0, 0);
 			Item.rare = ItemRarityID.Yellow;
 			Item.autoReuse = false;
-			Item.shoot = ModContent.ProjectileType<Projectiles.NewYoyoProjectiles.ExtraterrestrialTaserProjectile > ();
+			Item.shoot = ModContent.ProjectileType<Projectiles.NewYoyoProjectiles.ExtraterrestrialTaserProjectile>();
 			Item.shootSpeed = 16f;
 		}
 
 		public override void PostDrawInWorld(SpriteBatch spriteBatch, Color lightColor, Color alphaColor, float rotation, float scale, int whoAmI)
 		{
-			Texture2D texture = ModContent.Request<Texture2D>("TysYoyoRedux/Items/NewYoyos/ExtraterrestrialTaser_Glowmask").Value;
+			Texture2D texture = ModContent.Request<Texture2D>("TysYoyoRedux144/Items/NewYoyos/ExtraterrestrialTaser_Glowmask").Value;
 			Main.spriteBatch.Draw
 			(
 				texture,

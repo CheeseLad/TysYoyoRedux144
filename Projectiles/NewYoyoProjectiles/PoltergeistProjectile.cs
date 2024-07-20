@@ -50,7 +50,7 @@ namespace TysYoyoRedux144.Projectiles.NewYoyoProjectiles
 		public override bool PreDraw(ref Color lightColor)
 		{
 			//Red Afterimage
-			Texture2D texture = ModContent.Request<Texture2D>("TysYoyoRedux/Projectiles/NewYoyoProjectiles/PoltergeistProjectile_Afterimage").Value;
+			Texture2D texture = ModContent.Request<Texture2D>("TysYoyoRedux144/Projectiles/NewYoyoProjectiles/PoltergeistProjectile_Afterimage").Value;
 
 			Vector2 drawOrigin = new Vector2(TextureAssets.Projectile[Projectile.type].Value.Width * 0.5f, Projectile.height * 0.5f);
 			for (int k = 0; k < Projectile.oldPos.Length; k++)
